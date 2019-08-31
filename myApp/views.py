@@ -1,3 +1,5 @@
+""" file for views that don't require a module """
+
 from flask import render_template, Blueprint
 from myApp import app
 

@@ -1,3 +1,5 @@
+""" Set the home route and run the app """
+
 from myApp import app
 from flask import render_template
 

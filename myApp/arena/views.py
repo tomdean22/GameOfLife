@@ -1,3 +1,5 @@
+""" views for the game itself """
+
 from flask import Blueprint, render_template, redirect, url_for
 from jinja2 import TemplateNotFound
 from myApp import db

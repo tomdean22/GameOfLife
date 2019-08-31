@@ -1,3 +1,8 @@
+"""
+Initialize the app, set the secret key and database configurations,
+initialize the database, and register the views with the app.
+"""
+
 from os.path import abspath, dirname, join
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
